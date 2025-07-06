@@ -3,7 +3,7 @@ const data = {
     name: "Lê Minh Trí",
     title: "Lập trình viên Full-stack & Nhà thiết kế sáng tạo",
     address: "Đà Nẵng, Việt Nam",
-    email: "leminhtrisuper@gmail.com",
+    email: "minhtri.webdev@gmail.com",
     birth: "03/11/2003",
     phone: "+84 934 961 544",
     bio: "Tôi là một lập trình viên mới ra trường, chưa có nhiều kinh nghiệm thực tiễn nhưng luôn nhiệt huyết, ham học hỏi và đam mê phát triển các ứng dụng web hiện đại.Tôi đặc biệt quan tâm đến việc tạo ra trải nghiệm người dùng tốt và không ngừng trau dồi kỹ năng về cả lập trình lẫn thiết kế UI/ UX để hoàn thiện bản thân và mang lại giá trị cho sản phẩm.",
@@ -61,7 +61,7 @@ const data = {
     },
   ],
   contact: {
-    email: "leminhtrisuper@gmail.com",
+    email: "minhtri.webdev@gmail.com",
     phone: "+84 934 961 544",
     address: "Đà Nẵng, Việt Nam",
     message:
@@ -69,8 +69,7 @@ const data = {
   },
 };
 
-// Tính tuổi từ ngày sinh trong data
-const birthDateParts = data.personal_info.birth.split("/"); // dd/mm/yyyy
+const birthDateParts = data.personal_info.birth.split("/");
 const birthDate = new Date(
   +birthDateParts[2],
   birthDateParts[1] - 1,
