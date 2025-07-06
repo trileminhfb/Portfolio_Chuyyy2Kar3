@@ -48,7 +48,7 @@ const data = {
       technologies: ["Vue.js", "Laravel", "MySQL"],
       image:
         "https://hct.edu.vn/sites/default/files/cover-nha-hang-nhat-ban-khong-the-khong-di-o-ha-noi-1.jpg",
-      link: "#",
+      link: "https://github.com/trileminhfb/FE_QuanLyNhaHang",
     },
     {
       title: "Hệ thống bán hàng",
@@ -57,7 +57,7 @@ const data = {
       technologies: ["Vue.js", "Laravel", "MySQL"],
       image:
         "https://file.hstatic.net/1000192210/file/he-thong-ban-hang-haravan-1_grande.png",
-      link: "#",
+      link: "https://github.com/trileminhfb/fe-clothes-shop",
     },
   ],
   contact: {
@@ -132,7 +132,7 @@ data.projects.forEach((project) => {
     project.title
   }" class="w-full h-full object-cover transition duration-500 hover:scale-110">
       <div class="absolute inset-0 bg-indigo-600 opacity-0 hover:opacity-90 transition duration-500 flex items-center justify-center">
-        <a href="${
+        <a target="_blank" rel="noopener noreferrer" href="${
           project.link
         }" class="text-white font-bold text-lg border-2 border-white px-4 py-2 rounded-full">Xem chi tiết</a>
       </div>
